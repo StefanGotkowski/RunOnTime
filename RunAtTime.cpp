@@ -26,9 +26,15 @@ boolean RunAtTime::isTime(){
 }
 
 /*
-  Change Timeout
+  Change Timeout in miliseconds
 */
-void RunAtTime::resetTimeout( long ms ){
+void RunAtTime::changeTimeout( long ms ){
   _milisec = ms;
 }
 
+/*
+  Reset current time to 0
+*/
+void RunAtTime::reset(  ){
+  _previousMillis = 0;
+}
