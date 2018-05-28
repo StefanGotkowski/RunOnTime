@@ -28,7 +28,7 @@ void RunOnTime::changeDelay( unsigned long milisec )
   _milisec = milisec;
 }
 
-void RunOnTime::resetDelay()
+void RunOnTime::resetTimer()
 {
   _previousMillis = millis();
 }
