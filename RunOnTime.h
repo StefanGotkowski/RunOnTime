@@ -21,9 +21,9 @@
       //
       void changeDelay( unsigned long milisec );
       //
-      // Reset delay 
+      // Reset the current time passed
       //
-      void resetDelay();
+      void resetTimer();
       
     private:
       unsigned long _previousMillis = 0;
