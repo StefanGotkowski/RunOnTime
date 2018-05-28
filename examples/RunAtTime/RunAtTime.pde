@@ -40,7 +40,7 @@ void loop(){
     
     // Change next timeout
     timeout += 100;
-    resetTimeout( timeout );
+    blinkLed.resetTimeout( timeout );
   }
   
 }
