@@ -9,7 +9,7 @@ It's an light and easy library to use.
 
 ## How to install library ?
 - Download this repository.
-    > click on "Clone or download"
+    > Clone or download
     
 - Open zip library with Arduino IDE.
     > Sketch > Include Library > Add .ZIP Library...
