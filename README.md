@@ -19,7 +19,7 @@ It's an light and easy library to use.
 For more information, please read [this manual](https://www.arduino.cc/en/Guide/Libraries#toc4) (Importing a .zip Library).
 
 ## How to use ?
-Try to understand the library with the example.
+- Try to understand the library with the example.
 
     > File > Examples > RunAtTime > RunAtTime
 
