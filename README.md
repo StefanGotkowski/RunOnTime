@@ -13,7 +13,7 @@ This Arduino C library is built from [BlinkWithoutDelay](https://www.arduino.cc/
 
     > Sketch > Include Library > Add .ZIP Library...
 
-For more information on adding a library in Arduino IDE, see [this manual](https://www.arduino.cc/en/Guide/Libraries#toc4).
+For more informations on adding a library in Arduino IDE, see [this manual](https://www.arduino.cc/en/Guide/Libraries#toc4).
 
 ## How to use ?
 
