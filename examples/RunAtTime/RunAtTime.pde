@@ -39,7 +39,9 @@ void loop(){
     digitalWrite( LED_BUILTIN , ledState);
     
     // Change next timeout
-    timeout += 100;
+    timeout -= 100;
+    if( timeout <= 100 )
+      timeout = 2000;
     blinkLed.resetTimeout( timeout );
   }
   
