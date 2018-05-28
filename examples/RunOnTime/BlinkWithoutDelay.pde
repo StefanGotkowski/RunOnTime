@@ -14,11 +14,8 @@
 // Set state of led
 int ledState = LOW;
 
-// Set timeout 
-int delay = 1000;
-
 // Instantiate blinkLed in miliseconds
-RunOnTime blinkLed( delay );
+RunOnTime blinkLed( 1000 );
 
 void setup()
 {
@@ -29,7 +26,7 @@ void setup()
 void loop()
 {
   // Is time to run ?
-  if( blinkLed.changeDelay() )
+  if( blinkLed.isPassedDelay() )
   {
     // Invert led state
     if ( ledState == LOW ) 
