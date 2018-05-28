@@ -26,9 +26,9 @@ Try to understand the library with the example.
 ## What are features ?
 - Instantiate
     - `RunAtTime( unsigned long milisec );` 
-        - // During the instantiation, the object will pass a delay in milisecondes
+        - During the instantiation, the object will pass a delay in milisecondes
 - Functions
     - `boolean isTime();` 
-        - // Return true if the time is passed
+        - Return true if the time is passed
     - `void changeTimeout( long ms );`
-        - // Change the delay set at instantiation
+        - Change the delay set at instantiation
