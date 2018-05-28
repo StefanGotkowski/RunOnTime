@@ -6,7 +6,7 @@
 
 #include "RunOnTime.h"
 
-RunOnTime::RunAtTime( unsigned long milisec )
+RunOnTime::RunOnTime( unsigned long milisec )
 {
   _milisec = milisec;
 }
