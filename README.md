@@ -28,7 +28,7 @@ For more informations on adding a library in Arduino IDE, see [this manual](http
     - `void resetTimer();`
         - reset the current time passed
 
-- Example - see Arduino IDE under:
+- Examples - see Arduino IDE under:
 
     - File > Examples > RunOnTime > BlinkWithoutDelay
     
