@@ -13,7 +13,7 @@
     public:
       RunAtTime( unsigned long milisec );
       boolean isTime();
-      void resetTimeout( long ms );
+      void changeTimeout( long ms );
       
     private:
       unsigned long _previousMillis = 0;
