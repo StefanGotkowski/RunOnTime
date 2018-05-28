@@ -29,13 +29,13 @@ void loop(){
   // Is time to run ?
   if( blinkLed.isTime() ){
   
-    // Invert state
+    // Invert led state
     if (ledState == LOW) 
       ledState = HIGH;
     else 
       ledState = LOW;
       
-    // Change sate
+    // Change led sate
     digitalWrite( LED_BUILTIN , ledState);
     
     // Change next timeout
