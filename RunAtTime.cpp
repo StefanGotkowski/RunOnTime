@@ -31,10 +31,3 @@ boolean RunAtTime::isTime(){
 void RunAtTime::changeTimeout( long ms ){
   _milisec = ms;
 }
-
-/*
-  Reset current time to 0
-*/
-void RunAtTime::reset(){
-  _previousMillis = 0;
-}
