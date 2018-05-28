@@ -3,22 +3,16 @@
 ## About
 RunAtTime is an Arduino C library. 
 
-This library is based from [BlinkWithoutDelay](https://www.arduino.cc/en/Tutorial/BlinkWithoutDelay).
+This light and easy library is based on [BlinkWithoutDelay](https://www.arduino.cc/en/Tutorial/BlinkWithoutDelay).
 
-It is a light and easy library to use.
-
-Version 1.0.0
-
-## How to install library ?
-- Download this repository.
-
-    > Clone or download
+## How to install the library ?
+- Download the [repository](https://github.com/StefanGotkowski/RunAtTime.git).
     
-- Open zip library with Arduino IDE.
+- Add the zip library into Arduino IDE.
 
     > Sketch > Include Library > Add .ZIP Library...
 
-For more information, please read [this manual](https://www.arduino.cc/en/Guide/Libraries#toc4) (Importing a .zip Library).
+For more information on adding a library in Arduino IDE, see [this manual](https://www.arduino.cc/en/Guide/Libraries#toc4).
 
 ## How to use ?
 - Try to understand the library with the example.
