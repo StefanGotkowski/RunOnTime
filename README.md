@@ -17,11 +17,15 @@ It's an light and easy library to use.
 For more information, please read [this manual](https://www.arduino.cc/en/Guide/Libraries#toc4) (Importing a .zip Library).
 
 ## How to use ?
+Try to understand the library with the example
+    > File > Examples > RunAtTime > RunAtTime
 
 ## What are the functionnalities ?
-You need to add this lines in your code :
-- Header
-`#include <RunAtTime.h>`
-
-- Content
-- Modify delay
+- Instantiate
+    - RunAtTime( unsigned long milisec );
+        During the instantiation, the object will pass a delay in milisecondes
+- Functions
+    - boolean isTime();
+        Return true if the time is passed
+    - void changeTimeout( long ms );
+        Change the delay set at instantiation
