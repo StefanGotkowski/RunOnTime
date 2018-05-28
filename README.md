@@ -30,6 +30,6 @@ For more information on adding a library in Arduino IDE, see [this manual](https
 
 - Example - see Arduino IDE under:
 
-    > File > Examples > RunOnTime > BlinkWithoutDelay
+    - File > Examples > RunOnTime > BlinkWithoutDelay
     
-    > File > Examples > FakesWavesDrawer > FakesWavesDrawer
+    - File > Examples > FakesWavesDrawer > FakesWavesDrawer
