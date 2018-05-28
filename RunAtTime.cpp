@@ -35,6 +35,6 @@ void RunAtTime::changeTimeout( long ms ){
 /*
   Reset current time to 0
 */
-void RunAtTime::reset(  ){
+void RunAtTime::reset(){
   _previousMillis = 0;
 }
