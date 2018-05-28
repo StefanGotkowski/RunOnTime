@@ -25,6 +25,8 @@ For more information on adding a library in Arduino IDE, see [this manual](https
         - 'true' if the delay has passed, 'false' outherwise
     - `void changeDelay( unsigned long milisec );`
         - 'milisec' changes the instantiated delay
+    - `void resetTimer();`
+        - reset the current time passed
 
 - Example - see Arduino IDE under:
 
