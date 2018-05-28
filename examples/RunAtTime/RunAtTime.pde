@@ -5,7 +5,7 @@
 *
 */
 
-// Include library from all Arduino libraries
+// Include library
 #include <RunAtTime.h>
 
 // Set state of led
