@@ -1,4 +1,4 @@
-# RunAtTime (V1.0.0)
+# RunAtTime 
 
 ## About
 RunAtTime is an Arduino C library. 
@@ -6,6 +6,8 @@ RunAtTime is an Arduino C library.
 This library is based from [BlinkWithoutDelay](https://www.arduino.cc/en/Tutorial/BlinkWithoutDelay).
 
 It's an light and easy library to use.
+
+Version 1.0.0
 
 ## How to install library ?
 - Download this repository.
