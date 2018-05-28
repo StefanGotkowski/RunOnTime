@@ -7,7 +7,7 @@ RunOnTime allows to indicate that a certain time delay expired. It is similar to
 This Arduino C library is built from [BlinkWithoutDelay](https://www.arduino.cc/en/Tutorial/BlinkWithoutDelay).
 
 ## How to install the library ?
-- Download the [repository](https://github.com/StefanGotkowski/RunAtTime.git).
+- Download the [repository](https://github.com/StefanGotkowski/RunOnTime.git).
     
 - Add the zip library into Arduino IDE.
 
@@ -28,6 +28,4 @@ For more information on adding a library in Arduino IDE, see [this manual](https
 
 - Example - see Arduino IDE under:
 
-    > File > Examples > RunOnTime > RunOnTime
-
-
+    > File > Examples > RunOnTime > BlinkWithoutDelay
