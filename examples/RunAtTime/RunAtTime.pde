@@ -14,7 +14,7 @@
 // Set state of led
 int ledState = LOW;
 // Set timeout 
-timeout = 2000;
+int timeout = 2000;
 
 // Instantiate blinkLed in miliseconds
 RunAtTime blinkLed( timeout );
