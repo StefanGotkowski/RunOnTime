@@ -32,4 +32,4 @@ For more informations on adding a library in Arduino IDE, see [this manual](http
 
     - File > Examples > RunOnTime > BlinkWithoutDelay
     
-    - File > Examples > FakesWavesDrawer > FakesWavesDrawer
+    - File > Examples > RunOnTime  > FakesWavesDrawer
