@@ -12,8 +12,18 @@
   {
     public:
       RunAtTime( unsigned long milisec );
+      //
+      //  Return true if the time is passed
+      //
       boolean isTime();
+      //
+      // Change time
+      //
       void changeTimeout( long ms );
+      //
+      // Set previous delay to 0
+      //
+      void reset();
       
     private:
       unsigned long _previousMillis = 0;
