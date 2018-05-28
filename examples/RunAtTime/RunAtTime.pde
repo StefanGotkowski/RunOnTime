@@ -5,14 +5,14 @@
 *
 */
 
-// Include library
+// Include library from all Arduino libraries
 #include <RunAtTime.h>
 
 // Set state of led
 int ledState = LOW;
 
 // Set timeout 
-int timeout = 2000;
+int timeout = 1000;
 
 // Instantiate blinkLed in miliseconds
 RunAtTime blinkLed( timeout );
@@ -37,9 +37,9 @@ void loop(){
     digitalWrite( LED_BUILTIN , ledState );
     
     // Change next timeout
-    timeout -= 100;
-    if( timeout <= 100 )
-      timeout = 2000;
+    timeout -= 10;
+    if( timeout <= 10 )
+      timeout = 1000;
     blinkLed.changeTimeout( timeout );
     
   }
