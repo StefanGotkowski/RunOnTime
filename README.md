@@ -23,7 +23,7 @@ Try to understand the library with the example.
 
     > File > Examples > RunAtTime > RunAtTime
 
-## What are the functionnalities ?
+## What are features ?
 - Instantiate
     - RunAtTime( unsigned long milisec );
     
