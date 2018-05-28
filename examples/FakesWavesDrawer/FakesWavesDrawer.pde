@@ -11,7 +11,7 @@
 // Include library
 #include <RunOnTime.h>
 
-// Instantiate blinkLed in miliseconds
+// Instantiate nextLine in miliseconds
 RunOnTime nextLine( 100 );
 
 void setup()
