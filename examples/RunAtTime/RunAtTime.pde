@@ -42,7 +42,10 @@ void loop(){
     timeout -= 100;
     if( timeout <= 100 )
       timeout = 2000;
-    blinkLed.resetTimeout( timeout );
+    blinkLed.changeTimeout( timeout );
+    
+    // Reset the current time passed
+    blinkLed.reset();
   }
   
 }
