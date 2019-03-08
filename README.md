@@ -33,3 +33,7 @@ For more informations on adding a library in Arduino IDE, see [this manual](http
     - File > Examples > RunOnTime > BlinkWithoutDelay
     
     - File > Examples > RunOnTime  > FakesWavesDrawer
+
+## Licensing
+
+GNU General Public License v2.0
